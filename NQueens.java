@@ -2,7 +2,7 @@ package Complete_Dsa.Recursion.Lec10_backtracking;
 
 public class NQueens {   //Time Complexity: O(N!)
     public static int queens(boolean[][] board, int row){
-        //base condition\
+        //base condition
         if(row==board.length){
             display(board);
             System.out.println();
